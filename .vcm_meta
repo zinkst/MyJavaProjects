@@ -2,6 +2,6 @@
 <project-description>
 	<nature id="com.ibm.etools.j2ee.EARNature"/>
 	<reference project-name="GenerateStaticHomepage"/>
-	<reference project-name="UrlaubsbilderBeans"/>
-	<reference project-name="GenerateStaticHomepageWeb"/>
+	<builder name="com.ibm.etools.validation.validationbuilder">
+	</builder>
 </project-description>
