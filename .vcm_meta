@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-description>
+	<nature id="com.ibm.etools.j2ee.EARNature"/>
+	<reference project-name="Urlaubsbilder"/>
+	<reference project-name="UrlaubsbilderBeans"/>
+</project-description>
