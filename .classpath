@@ -2,8 +2,7 @@
 <classpath>
     <classpathentry kind="var" path="SERVERJDK_PLUGINDIR/jre/lib/rt.jar"/>
     <classpathentry kind="src" path="source"/>
-    <classpathentry kind="src" path="/UrlaubsbilderBeans"/>
+    <classpathentry exported="true" kind="src" path="/UrlaubsbilderBeans"/>
     <classpathentry kind="var" path="WAS_PLUGINDIR/lib/j2ee.jar"/>
-    <classpathentry kind="lib" path="/UrlaubsbilderEAR/urlaubsbilderbeans.jar"/>
     <classpathentry kind="output" path="webApplication\WEB-INF\classes"/>
 </classpath>

@@ -86,17 +86,17 @@ ID: <%= urlaubViewBean.getActualPicture().getPictureIdentifier()%>
 <% if (urlaubViewBean.getActualPicture().hasPreviousPicture() )
    { %>
 <!--     <A href="servlet/urlaubsbilder.standardservlets.ContentServlet?actualPicture=<%=urlaubViewBean.getActualPicture().getPathOfPreviousPicture()%>" target="content"> Voriges Bild  </A> -->
-     <A href="servlet/ContentServlet?actualPicture=<%=urlaubViewBean.getActualPicture().getPathOfPreviousPicture()%>" target="content"> Voriges Bild  </A>
+     <A href="ContentServlet?actualPicture=<%=urlaubViewBean.getActualPicture().getPathOfPreviousPicture()%>" target="content"> Voriges Bild  </A>
  <%}%>   
 <% if (urlaubViewBean.getActualPicture().hasSubsequentPicture() )
    { %>
 <!--      <A href="servlet/urlaubsbilder.standardservlets.ContentServlet?actualPicture=<%=urlaubViewBean.getActualPicture().getPathOfNextPicture()%>" target="content">Nächstes Bild</A> -->
-     <A href="servlet/ContentServlet?actualPicture=<%=urlaubViewBean.getActualPicture().getPathOfNextPicture()%>" target="content">Nächstes Bild</A>
+     <A href="ContentServlet?actualPicture=<%=urlaubViewBean.getActualPicture().getPathOfNextPicture()%>" target="content">Nächstes Bild</A>
  <%}%>
 <BR>
 
 <!-- <FORM name="ChangeEnglish" method="POST" action="servlet/urlaubsbilder.standardservlets.ChangeDescriptionServlet" target="_self" > -->
-<FORM name="ChangeEnglish" method="POST" action="servlet/ChangeDescriptionServlet" target="_self" >
+<FORM name="ChangeEnglish" method="POST" action="ChangeDescriptionServlet" target="_self" >
 <INPUT type="hidden" name="language" value="1">
 <INPUT type="hidden" name="newDescription" >
 <INPUT type="hidden" name="initDescription" value="<%= urlaubViewBean.getActualPicture().getEnglishPictureDescription() %>" >
@@ -106,7 +106,7 @@ ID: <%= urlaubViewBean.getActualPicture().getPictureIdentifier()%>
 </FORM>
 
 <!-- <FORM name="ChangeGerman" method="POST" action="servlet/urlaubsbilder.standardservlets.ChangeDescriptionServlet" target="_self" > -->
-<FORM name="ChangeGerman" method="POST" action="servlet/ChangeDescriptionServlet" target="_self" >
+<FORM name="ChangeGerman" method="POST" action="ChangeDescriptionServlet" target="_self" >
 <INPUT type="hidden" name="language" value="2">
 <INPUT type="hidden" name="newDescription" >
 <INPUT type="hidden" name="initDescription" value="<%= urlaubViewBean.getActualPicture().getGermanPictureDescription() %>" >

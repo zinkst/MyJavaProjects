@@ -7,8 +7,12 @@
 	</builder>
 	<builder name="org.eclipse.jdt.core.javabuilder">
 	</builder>
-	<builder name="com.ibm.etools.webtools.webappbuilder">
-	</builder>
 	<builder name="com.ibm.etools.j2ee.validationbuilder">
+	</builder>
+	<builder name="com.ibm.etools.webtools.additions.linksbuilder">
+	</builder>
+	<builder name="com.ibm.etools.validation.validationbuilder">
+	</builder>
+	<builder name="com.ibm.etools.j2ee.LibCopyBuilder">
 	</builder>
 </project-description>

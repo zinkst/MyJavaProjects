@@ -18,7 +18,7 @@
 
 <% for (int j=0;j<urlaubViewBean.getFieldDirContent().getAllPicturePaths().length;j++)
    { %>
-    <A HREF="servlet/ContentServlet?actualPicture=<%= urlaubViewBean.getFieldDirContent().getAllPicturePaths(j) %>" TARGET = "content" ID ="smallink" > 
+    <A HREF="ContentServlet?actualPicture=<%= urlaubViewBean.getFieldDirContent().getAllPicturePaths(j) %>" TARGET = "content" ID ="smallink" > 
     <%= urlaubViewBean.getFieldDirContent().getPictureName(j) %> </A><BR>
    <%} %>
 
