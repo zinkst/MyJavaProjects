@@ -3,4 +3,5 @@
   <mappings xmi:id="ModuleMapping_1" projectName="Urlaubsbilder">
     <module xmi:type="application:WebModule" href="META-INF/application.xml#WebModule_1"/>
   </mappings>
+  <utilityJARMappings xmi:id="UtilityJARMapping_1041426822239" projectName="UrlaubsbilderBeans" uri="UrlaubsbilderBeans.jar"/>
 </modulemap:EARProjectMap>
