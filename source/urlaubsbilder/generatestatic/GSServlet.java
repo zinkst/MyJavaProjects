@@ -19,6 +19,7 @@ public class GSServlet extends HttpServlet implements Serializable
   protected String urlaubId = new String();
   protected String targetPath = new String();
   protected String inputRoot = new String();
+  protected String urlaubPrefix = new String();
   protected DirContent dirContent = new DirContent();
   protected HttpServletRequest request = null;
   protected HttpServletResponse response = null;
@@ -105,7 +106,7 @@ public class GSServlet extends HttpServlet implements Serializable
     String outputFileName =
       targetPath
         + File.separator
-        + "UrlaubsPages"
+        + urlaubPrefix+"Pages"
         + File.separator
         + urlaubId
         + File.separator
@@ -175,7 +176,7 @@ public class GSServlet extends HttpServlet implements Serializable
       if (withHiresLink)
       {
         out.write(
-          "<A href=\"../../../UrlaubsPhotosHires/"
+          "<A href=\"../../../"+urlaubPrefix+"PhotosHires/"
             + urlaubId
             + "/hires/"
             + PictureName
@@ -188,7 +189,7 @@ public class GSServlet extends HttpServlet implements Serializable
       out.write("<BR> ");
       out.newLine();
       out.write(
-        "<IMG src=\"../../../UrlaubsPhotos/"
+        "<IMG src=\"../../../"+urlaubPrefix+"Photos/"
           + urlaubId
           + "/"
           + request.getParameter("pictureResolution")
@@ -214,7 +215,7 @@ public class GSServlet extends HttpServlet implements Serializable
   protected void initMenuWriter()
   {
     String outputFileName =
-      targetPath + File.separator + "UrlaubsPages" + File.separator + urlaubId + File.separator + "c_menu.html";
+      targetPath + File.separator + urlaubPrefix+"Pages" + File.separator + urlaubId + File.separator + "c_menu.html";
 
     try
     {
@@ -258,7 +259,7 @@ public class GSServlet extends HttpServlet implements Serializable
   protected void initTitlePageWriter()
   {
     String outputFileName =
-      targetPath + File.separator + "UrlaubsPages" + File.separator + urlaubId + File.separator + "c_title.html";
+      targetPath + File.separator + urlaubPrefix+"Pages" + File.separator + urlaubId + File.separator + "c_title.html";
 
     try
     {
@@ -357,6 +358,9 @@ public class GSServlet extends HttpServlet implements Serializable
 
       inputRoot = request.getParameter("inputRoot");
       targetPath = request.getParameter("targetPath");
+      urlaubPrefix = request.getParameter("urlaubPrefix");
+      String urlaubPrefixID = request.getParameter("urlaubPrefixID");
+      String urlaubPrefixName = request.getParameter("urlaubPrefixName");
 
       if (request.getParameter("hires").equalsIgnoreCase("with"))
       {
@@ -451,7 +455,7 @@ public class GSServlet extends HttpServlet implements Serializable
       session.invalidate();
       session = request.getSession(true);
 
-      dirContent.execute(inputRoot, new String(urlaubId + "\\" + request.getParameter("pictureResolution")));
+      dirContent.execute(new String(inputRoot+"\\"+urlaubPrefix+"Photos"+"\\") , new String(urlaubId + "\\" + request.getParameter("pictureResolution")));
       //session.putValue("dirContent", dirContent);
 
       String actualName = new String();
@@ -510,7 +514,7 @@ public class GSServlet extends HttpServlet implements Serializable
   protected void startPageGenerator(String language, String actualName)
   {
     String outputFileName =
-      targetPath + File.separator + "UrlaubsPages" + File.separator + urlaubId + File.separator + "c_start_" + language + ".html";
+      targetPath + File.separator + urlaubPrefix+"Pages" + File.separator + urlaubId + File.separator + "c_start_" + language + ".html";
 
     try
     {

@@ -10,13 +10,27 @@
 <BODY bgcolor="#999999" text="#ffffff" link="#ffff99" vlink="#ffcc99" alink="#6633ff" background="images/g_bcg006.gif">
 <FORM method="POST" action="GSServlet" target="_top">
 <P>Enter Configuration Data</P>
-<P>Input Root <BR>
-<INPUT type="text" name="inputRoot" id="inputRoot" size="52" maxlength="256" value="f:\persdata\Marion\homepage\UrlaubsPhotos\"></P>
-<INPUT type="hidden" name="mlname" id="mlname" value="HTML">
-
-<P>target Path <BR>
-<INPUT type="text" name="targetPath" id="targetPath" size="36" maxlength="256" value="f:\persdata\Marion\homepage"><INPUT type="hidden" name="mlname" id="mlname" value="HTML"><BR>
-</P>
+<TABLE border="1" width="871" height="130">
+	<TBODY>
+		<TR>
+			<TD width="216">Input Root </TD>
+			<TD width="647"><INPUT type="text" name="inputRoot" id="inputRoot"
+				size="36" maxlength="256" value="g:\StaticHP\"></TD>
+		</TR>
+		<TR>
+			<TD width="216">target Path</TD>
+			<TD width="647"><INPUT type="text" name="targetPath" id="targetPath"
+				size="36" maxlength="256" value="g:\StaticHP"></TD>
+		</TR>
+		<TR>
+			<TD width="216">UrlaubsPrefix</TD>
+			<TD width="647"><SELECT name="urlaubPrefix">
+				<OPTION value="Familien">Familien</OPTION>
+				<OPTION value="Urlaubs">Urlaubs</OPTION>
+			</SELECT></TD>
+		</TR>
+	</TBODY>
+</TABLE><P>
 BildGröße<SELECT name="pictureResolution">
     <OPTION value="800x600" selected>800x600</OPTION>
     <OPTION value="hires">hires</OPTION>
@@ -50,16 +64,5 @@ Urlaub<SELECT name="urlaubId">
 <INPUT type="reset" name="Reset" id="Reset" value="Reset"> &nbsp;
 </P>
 </FORM>
-Explantions for program:<BR clear="">
-<TABLE>
-<TR><TD>completePicturePath:</TD><TD> h:\staticHP\UrlaubsPhotos\2001Wintour\800x600\2001A01_xxx.jpg</TD></TR>
-<TR><TD>relativePicturePath:</TD><TD> \2001Wintour\800x600\2001A01_xxx.jpg</TD></TR>
-<TR><TD>pictureid:</TD><TD> 2001A01</TD></TR>
-<TR><TD>completePictureName:</TD><TD> 2001A01_xxx.jpg</TD></TR>
-<TR><TD>purePictureName:</TD><TD> xxx</TD></TR>
-<TR><TD>pictureNameWithoutExtension :</TD><TD> 2001_xxx</TD></TR>
-<TR><TD>inputRoot:</TD><TD> h:\staticHP\UrlaubsPhotos\</TD></TR>
-<TR><TD>urlaubId:</TD><TD> 2001Wintour</TD></TR>
-</TABLE>
 </BODY>
 </HTML>

@@ -10,9 +10,27 @@
 <BODY bgcolor="#999999" text="#ffffff" link="#ffff99" vlink="#ffcc99" alink="#6633ff" background="images/g_bcg006.gif">
 <FORM method="POST" action="GSServlet" target="_top">
 <P>Enter Configuration Data</P>
-<P>Input Root <INPUT type="text" name="inputRoot" id="inputRoot" size="36" maxlength="256" value="g:\StaticHP\UrlaubsPhotos\">
-target Path <INPUT type="text" name="targetPath" id="targetPath" size="36" maxlength="256" value="g:\StaticHP">
-<P>
+<TABLE border="1" width="871" height="130">
+	<TBODY>
+		<TR>
+			<TD width="216">Input Root </TD>
+			<TD width="647"><INPUT type="text" name="inputRoot" id="inputRoot"
+				size="36" maxlength="256" value="g:\StaticHP\"></TD>
+		</TR>
+		<TR>
+			<TD width="216">target Path</TD>
+			<TD width="647"><INPUT type="text" name="targetPath" id="targetPath"
+				size="36" maxlength="256" value="g:\StaticHP"></TD>
+		</TR>
+		<TR>
+			<TD width="216">UrlaubsPrefix</TD>
+			<TD width="647"><SELECT name="urlaubPrefix">
+				<OPTION value="Familien">Familien</OPTION>
+				<OPTION value="Urlaubs">Urlaubs</OPTION>
+			</SELECT></TD>
+		</TR>
+	</TBODY>
+</TABLE><P>
 Processing Mode:<BR>
 <INPUT type="radio" name="mode" value="single" checked>&nbsp;&nbsp;Nur Den Unten selekierten Urlaub<BR>
 <INPUT type="radio" name="mode" value="all">&nbsp;&nbsp;Alle Urlaube 
@@ -50,9 +68,14 @@ Urlaub<SELECT name="urlaubId">
 <OPTION value="2000Wintour">2000 Skitourenwoche am Kühtai</OPTION>
 <OPTION value="2000Canada">2000 10 Wochen Radreise Westkanada und Pazifischer Nordwesten der USA (Teil 1 Kanada)</OPTION>
 <OPTION value="2000USA">2000 10 Wochen Radreise Westkanada und Pazifischer Nordwesten der USA (Teil 2 USA)</OPTION><OPTION value="2001Wintour" >2001 Wintour San Bernardino</OPTION>
-<OPTION value="2001VernagtHuette" selected>2001 Skitouren Vernagthuette</OPTION>
+<OPTION value="2001Karwendel" >2001 Karwendel</OPTION>
+<OPTION value="2001VernagtHuette" >2001 Skitouren Vernagthuette</OPTION>
 <OPTION value="2001Gardasee" >2001 Gardasee</OPTION>
 <OPTION value="2001Salzkammergut" >Marion 2001 Salzkammergut</OPTION>
+<OPTION value="2002Suednorwegen" selected>2002 Südnorwegen</OPTION>
+<OPTION value="2002Dolomiten" >2002 Dolomiten</OPTION>
+<OPTION value="2002Polterabend" selected>2002 Polterabend</OPTION>
+<OPTION value="2002Standesamt" >2002 Standesamt</OPTION>
 </SELECT>
 </P>
 <P>
@@ -60,16 +83,5 @@ Urlaub<SELECT name="urlaubId">
 <INPUT type="reset" name="Reset" id="Reset" value="Reset"> &nbsp;
 </P>
 </FORM>
-Explantions for program:<BR clear="">
-<TABLE>
-<TR><TD>completePicturePath:</TD><TD> h:\staticHP\UrlaubsPhotos\2001Wintour\800x600\2001A01_xxx.jpg</TD></TR>
-<TR><TD>relativePicturePath:</TD><TD> \2001Wintour\800x600\2001A01_xxx.jpg</TD></TR>
-<TR><TD>pictureid:</TD><TD> 2001A01</TD></TR>
-<TR><TD>completePictureName:</TD><TD> 2001A01_xxx.jpg</TD></TR>
-<TR><TD>purePictureName:</TD><TD> xxx</TD></TR>
-<TR><TD>pictureNameWithoutExtension :</TD><TD> 2001_xxx</TD></TR>
-<TR><TD>inputRoot:</TD><TD> h:\staticHP\UrlaubsPhotos\</TD></TR>
-<TR><TD>urlaubId:</TD><TD> 2001Wintour</TD></TR>
-</TABLE>
 </BODY>
 </HTML>
