@@ -7,7 +7,7 @@
 		<servlet-class>urlaubsbilder.standardservlets.ChangeDescriptionServlet</servlet-class>
 		<init-param>
 			<param-name>ResultPage</param-name>
-			<param-value>/c_bild.jsp</param-value>
+			<param-value>c_bild.jsp</param-value>
 		</init-param>
 	</servlet>
 	<servlet>
@@ -16,7 +16,7 @@
 		<servlet-class>urlaubsbilder.standardservlets.InitMenuServlet</servlet-class>
 		<init-param>
 			<param-name>ResultPage</param-name>
-			<param-value>/f_Resultframe.html</param-value>
+			<param-value>f_Resultframe.html</param-value>
 		</init-param>
 		<init-param>
 			<param-name>bilderRoot</param-name>
@@ -101,7 +101,7 @@
 		<servlet-class>urlaubsbilder.standardservlets.ContentServlet</servlet-class>
         <init-param>
 			<param-name>ResultPage</param-name>
-			<param-value>/c_bild.jsp</param-value>
+			<param-value>c_bild.jsp</param-value>
 		</init-param>
 	</servlet>
 	<servlet-mapping>
