@@ -20,79 +20,79 @@
 		</init-param>
 		<init-param>
 			<param-name>bilderRoot</param-name>
-			<param-value>E:\MyHomepage\Web Content\UrlaubsPhotos</param-value>
+			<param-value>E:\userdata\persdata\Stefan\MyHomepage\Web Content\PhotosForWeb</param-value>
 		</init-param>
 		<init-param>
 			<param-name>1988bund</param-name>
-			<param-value>\1988bund\800x600</param-value>
+			<param-value>\1988\1988bund\800x600</param-value>
 		</init-param>
 		<init-param>
 			<param-name>1989bund</param-name>
-			<param-value>\1989bund\800x600</param-value>
+			<param-value>\1989\1989bund\800x600</param-value>
 		</init-param>
     	<init-param>
 			<param-name>1989dolomiten</param-name>
-			<param-value>\1989dolomiten\800x600</param-value>
+			<param-value>\1989\1989dolomiten\800x600</param-value>
 		</init-param>
     	<init-param>
 			<param-name>1991gardasee</param-name>
-			<param-value>\1991gardasee\800x600</param-value>
+			<param-value>\1991\1991gardasee\800x600</param-value>
 		</init-param>
     	<init-param>
 			<param-name>1992dolomiten</param-name>
-			<param-value>\1992dolomiten\800x600</param-value>
+			<param-value>\1992\1992dolomiten\800x600</param-value>
 		</init-param>
     	<init-param>
 			<param-name>1994clermontFerrand</param-name>
-			<param-value>\1994clermontFerrand\800x600</param-value>
+			<param-value>\1994\1994clermontFerrand\800x600</param-value>
 		</init-param>
     	<init-param>
 			<param-name>1994piemont</param-name>
-			<param-value>\1994piemont\800x600</param-value>
+			<param-value>\1994\1994piemont\800x600</param-value>
 		</init-param>
     	<init-param>
 			<param-name>1995irland</param-name>
-			<param-value>\1995irland\800x600</param-value>
+			<param-value>\1995\1995irland\800x600</param-value>
 		</init-param>
     	<init-param>
 			<param-name>1996neuseeland</param-name>
-			<param-value>\1996neuseeland\800x600</param-value>
+			<param-value>\1996\1996neuseeland\800x600</param-value>
 		</init-param>
     	<init-param>
 			<param-name>1997oetztalerRadmarathon</param-name>
-			<param-value>\1997oetztalerRadmarathon\800x600</param-value>
+			<param-value>\1997\1997oetztalerRadmarathon\800x600</param-value>
 		</init-param>
     	<init-param>
 			<param-name>1997skitourWeiskugel</param-name>
-			<param-value>\1997skitourWeiskugel\800x600</param-value>
+			<param-value>\1997\1997skitourWeiskugel\800x600</param-value>
 		</init-param>
     	<init-param>
 			<param-name>1997lofoten</param-name>
-			<param-value>\1997lofoten\800x600</param-value>
+			<param-value>\1997\1997lofoten\800x600</param-value>
 		</init-param>
     	<init-param>
 			<param-name>1998island</param-name>
-			<param-value>\1998island\800x600</param-value>
+			<param-value>\1998\1998island\800x600</param-value>
 		</init-param>
         <init-param>
 			<param-name>1999Schweiz</param-name>
-			<param-value>\1999Schweiz\800x600</param-value>
+			<param-value>\1999\1999Schweiz\800x600</param-value>
 		</init-param>
         <init-param>
 			<param-name>2000Wintour</param-name>
-			<param-value>\2000Wintour\800x600</param-value>
+			<param-value>\2000\2000Wintour\800x600</param-value>
 		</init-param>
         <init-param>
 			<param-name>2000Canada</param-name>
-			<param-value>\2000Canada\800x600</param-value>
+			<param-value>\2000\2000Canada\800x600</param-value>
 		</init-param>
         <init-param>
 			<param-name>2000USA</param-name>
-			<param-value>\2000USA\800x600</param-value>
+			<param-value>\2000\2000USA\800x600</param-value>
 		</init-param>
         <init-param>
 			<param-name>2001Wintour</param-name>
-			<param-value>\2001Wintour\800x600</param-value>
+			<param-value>\2001\2001Wintour\800x600</param-value>
 		</init-param>
 	</servlet>
 	<servlet>

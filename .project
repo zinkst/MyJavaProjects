@@ -51,11 +51,18 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
+		<buildCommand>
+			<name>com.ibm.sse.model.structuredbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
 	</buildSpec>
 	<natures>
+		<nature>org.eclipse.jem.workbench.JavaEMFNature</nature>
 		<nature>com.ibm.wtp.web.WebNature</nature>
 		<nature>com.ibm.etools.j2ee.WebNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>com.ibm.etools.ctc.javaprojectnature</nature>
+		<nature>org.eclipse.jem.beaninfo.BeanInfoNature</nature>
 	</natures>
 </projectDescription>
