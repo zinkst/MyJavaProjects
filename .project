@@ -17,14 +17,9 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
-		<buildCommand>
-			<name>com.ibm.sse.model.structuredbuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
 	</buildSpec>
 	<natures>
 		<nature>com.ibm.wtp.j2ee.EARNature</nature>
-		<nature>com.ibm.etools.j2ee.EARNature</nature>
+		<nature>com.ibm.etools.j2ee.EAR13Nature</nature>
 	</natures>
 </projectDescription>
