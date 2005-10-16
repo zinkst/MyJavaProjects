@@ -2,6 +2,9 @@
 <classpath>
     <classpathentry kind="src" path=""/>
     <classpathentry kind="var" path="JRE_LIB" rootpath="JRE_SRCROOT" sourcepath="JRE_SRC"/>
-    <classpathentry kind="var" path="WAS_PLUGINDIR/lib/j2ee.jar"/>
+    <classpathentry kind="var"
+        path="SERVERJDK_50_PLUGINDIR/jre/lib/rt.jar"
+        rootpath="SERVERJDK_SRCROOT" sourcepath="SERVERJDK_50_PLUGINDIR/src.jar"/>
+    <classpathentry kind="var" path="WAS_50_PLUGINDIR/lib/j2ee.jar"/>
     <classpathentry kind="output" path=""/>
 </classpath>
