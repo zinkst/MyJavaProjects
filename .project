@@ -7,7 +7,7 @@
 	</projects>
 	<buildSpec>
 		<buildCommand>
-			<name>com.ibm.etools.j2ee.ui.LibDirBuilder</name>
+			<name>com.ibm.wtp.migration.MigrationBuilder</name>
 			<arguments>
 			</arguments>
 		</buildCommand>

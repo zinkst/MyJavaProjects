@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<websettings version="400">
-    <lib-modules>
-        <lib-module>
-            <jar>UrlaubsbilderBeans.jar</jar>
-            <project>UrlaubsbilderBeans</project>
-        </lib-module>
-    </lib-modules>
+<websettings version="500">
+    <webcontent>WebContent</webcontent>
+    <jsp-level>JSP 1.2</jsp-level>
 </websettings>
