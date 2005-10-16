@@ -20,7 +20,7 @@
 		</init-param>
 		<init-param>
 			<param-name>bilderRoot</param-name>
-			<param-value>G:\StaticHP\UrlaubsPhotos</param-value>
+			<param-value>E:\MyHomepage\Web Content\UrlaubsPhotos</param-value>
 		</init-param>
 		<init-param>
 			<param-name>1988bund</param-name>
