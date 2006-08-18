@@ -1,0 +1,87 @@
+
+ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK href="../theme/Master.css" rel="stylesheet" type="text/css">
+<TITLE>PhotoHomepage</TITLE>
+</HEAD>
+<BODY bgcolor="#999999" text="#ffffff" link="#ffff99" vlink="#ffcc99" alink="#6633ff" background="../images/g_bcg006.gif">
+<FORM method="POST" action="Generator" target="_top">
+<P>Enter Configuration Data</P>
+<TABLE border="1" width="871" height="130">
+	<TBODY>
+		<TR>
+			<TD width="216">Input Root </TD>
+			<TD width="647"><INPUT type="text" name="inputRoot" id="inputRoot"
+				size="36" maxlength="256" value="d:\persdata\Stefan\MyHomepage\WebContent\StaticContent"></TD>
+		</TR>
+		<TR>
+			<TD width="216">target Path</TD>
+			<TD width="647"><INPUT type="text" name="targetPath" id="targetPath"
+				size="36" maxlength="256" value="d:\persdata\Stefan\MyHomepage\WebContent\StaticContent"></TD>
+		</TR>
+		<TR>
+			<TD width="216">UrlaubsPrefix</TD>
+			<TD width="647"><SELECT name="urlaubPrefix">
+				<OPTION value="Urlaubs">Urlaubs</OPTION>
+				<OPTION value="Familien">Familien</OPTION>
+			</SELECT></TD>
+		</TR>
+	</TBODY>
+</TABLE><P>
+Processing Mode:<BR>
+<INPUT type="radio" name="mode" value="single" checked>&nbsp;&nbsp;Nur Den Unten selekierten Urlaub<BR>
+<INPUT type="radio" name="mode" value="all">&nbsp;&nbsp;Alle Urlaube 
+</P>
+<P>
+With Hires Download Link:<BR>
+<INPUT type="radio" name="hires" value="with">&nbsp;&nbsp;With Hires Downloadlinks<BR>
+<INPUT type="radio" name="hires" value="without" checked>&nbsp;&nbsp;Without Hires Downloadlinks
+</P>
+<P>BildGröße<SELECT name="pictureResolution">
+    <OPTION value="800x600">800x600</OPTION>
+    <OPTION value="hires">hires</OPTION>
+    <OPTION value="640x480">640x480</OPTION>
+</SELECT> <BR clear="">
+Die Bilder müssen vorher mit einem anderen Tool (z.B. Irfanview) in gewähltes Format konvertiert werden und dann in einem Unterverzeichnis mit diesem Namen zur Verfügunggestellt werden...</P>
+<P>
+Urlaub<SELECT name="urlaubId">
+<OPTION value="1988\1988bund">1988 Bilder aus meiner Bundeswehrzeit bei den Gebirgsjägern</OPTION>
+<OPTION value="1989\1989bund">1989 Fortsetzung bei der Bundeswehr</OPTION>
+<OPTION value="1989\1989dolomiten">1989 Mountainbiken in den Dolomiten</OPTION>
+<OPTION value="1991\1991gardasee">1991 Mountainbiken am Gardasee</OPTION>
+<OPTION value="1992\1992dolomiten">1992 Mountainbiken in den Dolomiten</OPTION>
+<OPTION value="1994\1994clermontFerrand">1994 Auf dem Puy de Dome bei ClermontFerrand</OPTION>
+<OPTION value="1994\1994piemont">1994 Mountainbiken im Piemont</OPTION>
+<OPTION value="1995\1995Nordeuropa">1995 4 Monate Nordeuropatour </OPTION>
+<OPTION value="1996\1996pyrenaen">1996 1 Monat Reiseradeln in den Pyrenäen</OPTION>
+<OPTION value="1996\1996neuseeland">1996 2 Monate Resiseradeln Neuseeland</OPTION>
+<OPTION value="1997\1997oetztalerRadmarathon">1997 Oetztaler Radmarathon</OPTION>
+<OPTION value="1997\1997skitourWeiskugel">1997skitourWeiskugel</OPTION>
+<OPTION value="1997\1997Lofoten">1997 Radreise Lofoten und norwegische Westküste</OPTION>
+<OPTION value="1998\1998island">1998 Radreise 4 Wochen rund um Island</OPTION>
+<OPTION value="1999\1999Girojuni">1999Girojuni</OPTION>
+<OPTION value="1999\1999Schweiz">1999 Mit Reiserad in der Ostschweiz</OPTION>
+<OPTION value="2000\2000Wintour">2000 Skitourenwoche am Kühtai</OPTION>
+<OPTION value="2000\2000Canada">2000 10 Wochen Radreise Westkanada und Pazifischer Nordwesten der USA (Teil 1 Kanada)</OPTION>
+<OPTION value="2000\2000USA">2000 10 Wochen Radreise Westkanada und Pazifischer Nordwesten der USA (Teil 2 USA)</OPTION><OPTION value="2001\2001Wintour" >2001 Wintour San Bernardino</OPTION>
+<OPTION value="2001\2001Karwendel" >2001 Karwendel</OPTION>
+<OPTION value="2001\2001VernagtHuette" >2001 Skitouren Vernagthuette</OPTION>
+<OPTION value="2001\2001Gardasee" >2001 Gardasee</OPTION>
+<OPTION value="2001\2001Salzkammergut" >Marion 2001 Salzkammergut</OPTION>
+<OPTION value="2002\2002Suednorwegen" selected>2002 Südnorwegen</OPTION>
+<OPTION value="2002\2002Dolomiten" >2002 Dolomiten</OPTION>
+<OPTION value="2002\2002Polterabend" selected>2002 Polterabend</OPTION>
+<OPTION value="2002\2002Standesamt" >2002 Standesamt</OPTION>
+<OPTION value="2003\2003HochtourBrandenburgerHaus" >2003 Hochtour Brandenburger Haus</OPTION>
+</SELECT>
+</P>
+<P>
+<INPUT type="submit" name="Submit" id="Submit" value="Start Processing"> &nbsp;
+<INPUT type="reset" name="Reset" id="Reset" value="Reset"> &nbsp;
+</P>
+</FORM> 
+</BODY>
+</HTML>
