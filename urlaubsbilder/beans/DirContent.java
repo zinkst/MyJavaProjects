@@ -9,11 +9,7 @@ import java.util.*;
 public class DirContent {
 	private java.lang.String DirName = new java.lang.String();
 	private java.lang.String PathName = new java.lang.String();
-	protected java.io.File PathFileObject;/**
- * Insert the method's description here.
- * Creation date: (16.11.2000 16:18:04)
- * @return java.lang.String[]
- */
+	protected java.io.File PathFileObject;
 	protected transient java.beans.PropertyChangeSupport propertyChange;
 	protected java.util.Map PictureHashMap;
 	private java.lang.String[] fieldAllPicturePaths = null;
