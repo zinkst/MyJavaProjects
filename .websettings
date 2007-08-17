@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<websettings version="600">
-    <webcontent>WebContent</webcontent>
-    <jsp-level>1.2</jsp-level>
-<project-type>J2EE</project-type>
-<context-root>Urlaubsbilder</context-root>
-</websettings>
