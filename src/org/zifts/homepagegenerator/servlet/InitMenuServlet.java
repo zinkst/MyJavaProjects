@@ -85,85 +85,86 @@ public class InitMenuServlet extends HttpServlet implements Serializable
 
 	  //bilderRoot = getParameter(request, "bilderRoot", true, true, true, null);
 	  //urlaub = getParameter(request, "urlaub", true, true, true, null);
-	  bilderRoot = getServletConfig().getInitParameter("bilderRoot");
-	  urlaub = request.getParameter("urlaub");
-	  if (urlaub.equals("2001Wintour") )
-	  {
-		 path = getServletConfig().getInitParameter("2001Wintour");
-	  }
-	  if (urlaub.equals("2000USA") )
-	  {
-		 path = getServletConfig().getInitParameter("2000USA");
-	  }
-	  if (urlaub.equals("2000Canada") )
-	  {
-		 path = getServletConfig().getInitParameter("2000Canada");
-	  }
-	  else if (urlaub.equals("2000Wintour") )
-	  {
-		 path = getServletConfig().getInitParameter("2000Wintour");
-	  }
-	  else if (urlaub.equals("1999Schweiz") )
-	  {
-		 path = getServletConfig().getInitParameter("1999Schweiz");
-	  }
-	  else if (urlaub.equals("1998island") )
-	  {
-		 path = getServletConfig().getInitParameter("1998island");
-	  }
-	  else if (urlaub.equals("1996euseeland") )
-	  {
-		 path = getServletConfig().getInitParameter("1996neuseeland");
-	  }
-	  else if (urlaub.equals("1997oetztalerRadmarathon") )
-	  {
-		 path = getServletConfig().getInitParameter("1997oetztalerRadmarathon");
-	  }
-	  else if (urlaub.equals("1997skitourWeiskugel") )
-	  {
-		 path = getServletConfig().getInitParameter("1997skitourWeiskugel");
-	  }
-	  else if (urlaub.equals("1997lofoten") )
-	  {
-		 path = getServletConfig().getInitParameter("1997lofoten");
-	  }
-	  else if (urlaub.equals("1988bund") )
-	  {
-		 path = getServletConfig().getInitParameter("1988bund");
-	  }
-	  else if (urlaub.equals("1989bund") )
-	  {
-		 path = getServletConfig().getInitParameter("1989bund");
-	  }
-	  else if (urlaub.equals("1989dolomiten") )
-	  {
-		 path = getServletConfig().getInitParameter("1989dolomiten");
-	  }
-	  else if (urlaub.equals("1991gardasee") )
-	  {
-		 path = getServletConfig().getInitParameter("1991gardasee");
-	  }
-	  else if (urlaub.equals("1992dolomiten") )
-	  {
-		 path = getServletConfig().getInitParameter("1992dolomiten");
-	  }
-	  else if (urlaub.equals("1994clermontFerrand") )
-	  {
-		 path = getServletConfig().getInitParameter("1994clermontFerrand");
-	  }
-	  else if (urlaub.equals("1994piemont") )
-	  {
-		 path = getServletConfig().getInitParameter("1994piemont");
-	  }
-	  else if (urlaub.equals("1995irland") )
-	  {
-		 path = getServletConfig().getInitParameter("1995irland");
-	  }
-	  
-	  dirContent.execute(bilderRoot,path);
+//	  bilderRoot = getServletConfig().getInitParameter("bilderRoot");
+//	  urlaub = request.getParameter("urlaub");
+//	  if (urlaub.equals("2001Wintour") )
+//	  {
+//		 path = getServletConfig().getInitParameter("2001Wintour");
+//	  }
+//	  if (urlaub.equals("2000USA") )
+//	  {
+//		 path = getServletConfig().getInitParameter("2000USA");
+//	  }
+//	  if (urlaub.equals("2000Canada") )
+//	  {
+//		 path = getServletConfig().getInitParameter("2000Canada");
+//	  }
+//	  else if (urlaub.equals("2000Wintour") )
+//	  {
+//		 path = getServletConfig().getInitParameter("2000Wintour");
+//	  }
+//	  else if (urlaub.equals("1999Schweiz") )
+//	  {
+//		 path = getServletConfig().getInitParameter("1999Schweiz");
+//	  }
+//	  else if (urlaub.equals("1998island") )
+//	  {
+//		 path = getServletConfig().getInitParameter("1998island");
+//	  }
+//	  else if (urlaub.equals("1996euseeland") )
+//	  {
+//		 path = getServletConfig().getInitParameter("1996neuseeland");
+//	  }
+//	  else if (urlaub.equals("1997oetztalerRadmarathon") )
+//	  {
+//		 path = getServletConfig().getInitParameter("1997oetztalerRadmarathon");
+//	  }
+//	  else if (urlaub.equals("1997skitourWeiskugel") )
+//	  {
+//		 path = getServletConfig().getInitParameter("1997skitourWeiskugel");
+//	  }
+//	  else if (urlaub.equals("1997lofoten") )
+//	  {
+//		 path = getServletConfig().getInitParameter("1997lofoten");
+//	  }
+//	  else if (urlaub.equals("1988bund") )
+//	  {
+//		 path = getServletConfig().getInitParameter("1988bund");
+//	  }
+//	  else if (urlaub.equals("1989bund") )
+//	  {
+//		 path = getServletConfig().getInitParameter("1989bund");
+//	  }
+//	  else if (urlaub.equals("1989dolomiten") )
+//	  {
+//		 path = getServletConfig().getInitParameter("1989dolomiten");
+//	  }
+//	  else if (urlaub.equals("1991gardasee") )
+//	  {
+//		 path = getServletConfig().getInitParameter("1991gardasee");
+//	  }
+//	  else if (urlaub.equals("1992dolomiten") )
+//	  {
+//		 path = getServletConfig().getInitParameter("1992dolomiten");
+//	  }
+//	  else if (urlaub.equals("1994clermontFerrand") )
+//	  {
+//		 path = getServletConfig().getInitParameter("1994clermontFerrand");
+//	  }
+//	  else if (urlaub.equals("1994piemont") )
+//	  {
+//		 path = getServletConfig().getInitParameter("1994piemont");
+//	  }
+//	  else if (urlaub.equals("1995irland") )
+//	  {
+//		 path = getServletConfig().getInitParameter("1995irland");
+//	  }
+//	  
+//	  dirContent.execute(bilderRoot,path);
 	  //dirContent.setPathName(path);
 	  //dirContent.execute();
-   
+      urlaub = request.getParameter("urlaub");
+      dirContent.execute(urlaub);
 	  String firstpicture = new String();
 	  /*
 	  int i=0;

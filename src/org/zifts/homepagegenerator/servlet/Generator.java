@@ -1,25 +1,13 @@
 package org.zifts.homepagegenerator.servlet;
 
-/**
- *
- */
-// Imports
-//import com.ibm.servlet.*;
-//import com.ibm.webtools.runtime.*;
-
 import java.io.*;
-
 import javax.servlet.*;
 import javax.servlet.http.*;
 
 import org.zifts.homepagegenerator.util.DirContent;
 
-// Imports for beans used by this servlet
 
 public class Generator extends javax.servlet.http.HttpServlet implements javax.servlet.Servlet {
-  /**
-   * 
-   */
   private static final long serialVersionUID = -1034988809623631448L;
   
   /* (non-Java-doc)
