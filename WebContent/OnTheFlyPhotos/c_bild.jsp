@@ -114,7 +114,7 @@ ID: <%= urlaubViewBean.getActualPicture().getPictureIdentifier()%>
 </FORM>
 
 
-<IMG src="/bilderroot<%= urlaubViewBean.getActualPicture().getPictureRelativePath()%>" border="0">
+<IMG src="/MyHomepage/StaticContent/UrlaubsPhotos<%= urlaubViewBean.getActualPicture().getPictureRelativePath()%>" border="0">
 
 
 
