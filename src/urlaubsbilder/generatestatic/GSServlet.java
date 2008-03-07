@@ -309,7 +309,7 @@ public class GSServlet extends HttpServlet implements Serializable
         "<BODY bgcolor=\"#3333FF\" text=\"#333333\" link=\"#006633\" vlink=\"#0000FF\" alink=\"#ff6699\" background=\"../../../images/g_bcg006.gif\" >");
       TitlePageWriter.newLine();
       TitlePageWriter.write(
-        "<A href=\"../../index.html\" target=\"_top\"><IMG id=\"homepic\" src=\"../../../images/cursive_home.gif\" border=\"0\"></A>");
+        "<A href=\"../../../index.html\" target=\"_top\"><IMG id=\"homepic\" src=\"../../../images/cursive_home.gif\" border=\"0\"></A>");
       TitlePageWriter.newLine();
       TitlePageWriter.write(
         "<div id=\"Titlename\" style=\"position:absolute; width:768px; height:40px; z-index:1; left: 141px; top: 3px\">");
