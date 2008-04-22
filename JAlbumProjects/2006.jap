@@ -1,5 +1,5 @@
 #JAlbum Project
-#Thu Feb 14 08:29:50 CET 2008
+#Tue Apr 22 14:49:32 CEST 2008
 skin.slideGuestBookRating=true
 class=class se.datadosen.jalbum.AlbumBean
 skin.logoMargin=20
@@ -37,7 +37,7 @@ skin.ttComment=false
 skin.watermarkFont=Arial
 skin.paypalShipping6=
 skin.includeIndexCopyright=text
-appendImages=true
+appendImages=false
 textEncoding=UTF-8
 skin.paypalShipping5=
 skin.zoomPercentSlides=30
@@ -76,7 +76,7 @@ iptcCaption=false
 thumbnailPrefix=
 skin.slideShowLoop=false
 slideDirectory=slides
-qualityPercent=50
+qualityPercent=75
 skin.iptcCategory=true
 excludeByDefault=false
 skin.exifDate=false
@@ -230,7 +230,7 @@ skin.guestbookNotificationEmail=
 skin.paypalCurrency=
 skin.useIndexPageTransition=false
 resourceDirectory=res
-directory=/home/zinks/Photos/2006/Favoriten/files
+directory=/home/zinks/Photos/2006/Favoriten/Bilder 2006
 slides=true
 closeupDirectory=slides
 skin.iptcHeadline=true

@@ -1,11 +1,11 @@
 #JAlbum Project
-#Tue Apr 22 14:53:09 CEST 2008
+#Tue Apr 22 14:40:12 CEST 2008
 skin.slideGuestBookRating=true
 class=class se.datadosen.jalbum.AlbumBean
 skin.logoMargin=20
 skin.iptcObjectName=true
 skin.includeSlideCopyright=omit
-outputDirectory=/home/zinks/persdata/Stefan/MyHomepage/WebContent/StaticContent/JAlbum/2005
+outputDirectory=/home/zinks/persdata/Stefan/MyHomepage/WebContent/StaticContent/JAlbum/2008
 skin.logoVertAlign=bottom
 nThreads=1
 skin.movieScaleToFit=true
@@ -230,7 +230,7 @@ skin.guestbookNotificationEmail=
 skin.paypalCurrency=
 skin.useIndexPageTransition=false
 resourceDirectory=res
-directory=/home/zinks/Photos/2005/Favoriten/Bilder 2005
+directory=/home/zinks/Photos/2008/Favoriten/Bilder 2008
 slides=true
 closeupDirectory=slides
 skin.iptcHeadline=true
